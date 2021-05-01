@@ -1,0 +1,26 @@
+/* * 背景の色: #fff
+* タイトルの文字について: 色- #282828, 大きさ: 14px
+* 説明の文字について: 色- #282828, 大きさ: 12px
+* HTMLは今の状態のままにすること。触って良いのは、CSSのみ
+* カードの中の余白については、cardのpaddingで制御すること(marginはなし)。見た目に近づく指定になっていれば良いです
+* 画像の下の余白については、imgのmargin-bottomでつけて下さい。
+* 画像の大きさは 横: 288px, 縦182px
+* クラス名をつける際には、BEMに従うこと */
+body {
+  background-color: #fff;
+}
+.card {
+  padding: 10px;
+}
+.card__img-top {
+  width: 288px;
+  height: 182px;
+}
+.card__title {
+  color: #282828;
+  font-size: 14px;
+}
+.card__description {
+  color: #282828;
+  font-size: 12px;
+}
