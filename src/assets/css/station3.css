@@ -11,6 +11,8 @@ body {
 }
 .card {
   padding: 10px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
 }
 .card__img-top {
   width: 288px;
